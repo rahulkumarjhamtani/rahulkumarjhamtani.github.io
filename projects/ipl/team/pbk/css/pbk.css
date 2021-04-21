@@ -1,0 +1,56 @@
+.bgcolor
+{
+    background-color:rgb(207, 39, 39);
+}
+.heading
+{
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:60px;
+    text-decoration:underline;
+    font-weight:bold;
+    color:rgb(177, 177, 177);
+}
+.settable
+{
+    background:url("../img/pbk.png");
+    background-repeat:no-repeat;
+    background-size:80% 100%;
+    background-position:center;
+}
+.textcolor
+{
+    color:rgb(177, 177, 177);
+}
+.name
+{
+    text-decoration:none;
+    color:plum;
+}
+.name:hover
+{
+    color:cyan;
+}
+tr
+{
+    transition-duration: 0.4s;
+}
+tr:hover
+{
+    background:rgb(0, 0, 0, 0.6);
+    color:white;
+}
+@media (max-width:575px)
+{
+    .settable
+    {
+        background-size:80% 40%;
+    }
+}
+@media (min-width:576px) and (max-width:767px)
+{
+    .settable
+    {
+        background-size:90% 75%;
+    }
+}

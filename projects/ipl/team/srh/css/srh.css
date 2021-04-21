@@ -1,0 +1,56 @@
+.bgcolor
+{
+    background-color:rgb(189, 123, 37);
+}
+.heading
+{
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:60px;
+    text-decoration:underline;
+    font-weight:bold;
+    color:rgb(0, 0, 0);
+}
+.settable
+{
+    background:url("../img/srh.png");
+    background-repeat:no-repeat;
+    background-size:48% 70%;
+    background-position:center;
+}
+.textcolor
+{
+    color:rgb(0, 0, 0);
+}
+.name
+{
+    text-decoration:none;
+    color:yellow;
+}
+.name:hover
+{
+    color:cyan;
+}
+tr
+{
+    transition-duration: 0.4s;
+}
+tr:hover
+{
+    background:rgb(0, 0, 0, 0.6);
+    color:rgb(255, 255, 255);
+}
+@media (max-width:575px)
+{
+    .settable
+    {
+        background-size:50% 25%;
+    }
+}
+@media (min-width:576px) and (max-width:767px)
+{
+    .settable
+    {
+        background-size:40% 35%;
+    }
+}
