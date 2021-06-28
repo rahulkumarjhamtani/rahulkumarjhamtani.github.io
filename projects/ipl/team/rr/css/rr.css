@@ -1,0 +1,56 @@
+.bgcolor
+{
+    background-color:rgb(243, 42, 216);
+}
+.heading
+{
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:60px;
+    text-decoration:underline;
+    font-weight:bold;
+    color:rgb(18, 6, 175);
+}
+.settable
+{
+    background:url("../img/rr.png");
+    background-repeat:no-repeat;
+    background-size:25% 45%;
+    background-position:center;
+}
+.textcolor
+{
+    color:rgb(18, 6, 175);
+}
+.name
+{
+    text-decoration:none;
+    color:purple; 
+}
+.name:hover
+{
+    color:cyan;
+}
+tr
+{
+    transition-duration: 0.4s;
+}
+tr:hover
+{
+    background:rgb(0, 0, 0, 0.6);
+    color:white;
+}
+@media (max-width:575px)
+{
+    .settable
+    {
+        background-size:25% 25%;
+    }
+}
+@media (min-width:576px) and (max-width:767px)
+{
+    .settable
+    {
+        background-size:30% 30%;
+    }
+}

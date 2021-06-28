@@ -1,0 +1,273 @@
+body
+{
+    background-size:100% 100%;
+    /* background-image:radial-gradient(violet,indigo,blue,green,yellow,orange,red); */
+    background-image:radial-gradient(rgb(0, 50, 116),rgb(13, 13, 36));
+    background-repeat:no-repeat;
+
+}
+.heading
+{
+    text-align:center;
+    text-decoration:underline;
+    font-weight:bold;
+    font-size:115px;
+    font-style:italic;
+    color:white;
+}
+.gif
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+    margin-top:30px;
+    width: 50%;
+    border-left: 15px solid black;
+    border-right: 15px solid black;
+}
+.setimg
+{
+    width:300px;
+    height:200px;
+    border-radius:10px;
+    transition-duration:0.5s;
+    transition-timing-function: linear;
+}
+.setimg:hover
+{
+    width:320px;
+    border-radius:50px;
+}
+.maindiv
+{
+    float:left;
+    width:100%;
+    margin-top:30px;
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight
+{
+    padding:20px;
+}
+@media (max-width:575px)
+{
+    #one
+    {
+        text-align: center;
+    }
+    #two
+    {
+        text-align: center;
+    }
+    #three
+    {
+        text-align: center;
+    }
+    #four
+    {
+        text-align: center;
+    }
+    #five
+    {
+        text-align: center;
+    }
+    #six
+    {
+        text-align: center;
+    }
+    #seven
+    {
+        text-align: center;
+    }
+    #eight
+    {
+        text-align: center;
+    }
+    .gif
+    {
+        text-align: center;
+        width:100%;
+    }
+}
+@media (min-width:576px) and (max-width:767px)
+{
+    #one
+    {
+        float:left;
+        width:50%;
+    }
+    #two
+    {
+        float:right;
+        width:50%;
+    }
+    #three
+    {
+        float:left;
+        width:50%;
+    }
+    #four
+    {
+        float:right;
+        width:50%;
+    }
+    #five
+    {
+        float:left;
+        width:50%;
+    }
+    #six
+    {
+        float:right;
+        width:50%;
+    }
+    #seven
+    {
+        float:left;
+        width:50%;
+    }
+    #eight
+    {
+        float:right;
+        width:50%;
+    }
+    .gif
+    {
+        width:90%;
+        height:75%;
+    }
+}
+@media (min-width:768px) and (max-width:991px)
+{
+    #one
+    {
+        float:left;
+        width:33%;
+    }
+    #two
+    {
+        float:left;
+        width:33%;
+    }
+    #three
+    {
+        float:right;
+        width:33%;
+    }
+    #four
+    {
+        float:left;
+        width:33%;
+    }
+    #five
+    {
+        float:left;
+        width:33%;
+    }
+    #six
+    {
+        float:right;
+        width:33%;
+    }
+    #seven
+    {
+        float:left;
+        width:33%;
+    }
+    #eight
+    {
+        float:left;
+        width:33%;
+    }
+    .gif
+    {
+        width:70%;
+        height:65%;
+    }
+}
+@media (min-width:992px) and (max-width:1199px)
+{
+    #one
+    {
+        float:left;
+        width:25%;
+    }
+    #two
+    {
+        float:left;
+        width:25%;
+    }
+    #three
+    {
+        float:left;
+        width:25%;
+    }
+    #four
+    {
+        float:right;
+        width:25%;
+    }
+    #five
+    {
+        float:left;
+        width:25%;
+    }
+    #six
+    {
+        float:left;
+        width:25%;
+    }
+    #seven
+    {
+        float:left;
+        width:25%;
+    }
+    #eight
+    {
+        float:right;
+        width:25%;
+    }
+}
+@media(min-width:1200px)
+{
+    #one
+    {
+        float:left;
+        width:25%;
+    }
+    #two
+    {
+        float:left;
+        width:25%;
+    }
+    #three
+    {
+        float:left;
+        width:25%;
+    }
+    #four
+    {
+        float:right;
+        width:25%;
+    }
+    #five
+    {
+        float:left;
+        width:25%;
+    }
+    #six
+    {
+        float:left;
+        width:25%;
+    }
+    #seven
+    {
+        float:left;
+        width:25%;
+    }
+    #eight
+    {
+        float:right;
+        width:25%;
+    }
+}
