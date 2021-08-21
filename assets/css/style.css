@@ -64,19 +64,8 @@ h1, h2, h3, h4, h5, h6 {
     height:100vh;
     position: fixed;
     background-color: rgb(158, 253, 158);
-    z-index:999;
+    z-index:10000;
     perspective: 200px;
-}
-.square h1
-{
-  font-size: 45px;
-  color: rgb(0, 24, 2);
-  font-weight: bold;
-  position:absolute;
-  width: 100%;
-  margin-top:20vh;
-  font-family: 'Kalam', cursive;
-  text-align: center;
 }
 .square div
 {
