@@ -1,7 +1,7 @@
-// var preloader = document.getElementById("stopflip");
-//     function loadpage() {
-//         preloader.style.display = 'none';
-//     }
+var preloader = document.getElementById("stopflip");
+    function loadpage() {
+        preloader.style.display = 'none';
+    }
 
 
 (function() {
