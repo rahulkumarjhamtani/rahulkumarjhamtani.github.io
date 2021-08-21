@@ -56,6 +56,71 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# Loading Page
+--------------------------------------------------------------*/
+.square
+{
+    width:100%;
+    height:100vh;
+    position: fixed;
+    background-color: rgb(158, 253, 158);
+    z-index:999;
+    perspective: 200px;
+}
+.square h1
+{
+  font-size: 45px;
+  color: rgb(0, 24, 2);
+  font-weight: bold;
+  position:absolute;
+  width: 100%;
+  margin-top:20vh;
+  font-family: 'Kalam', cursive;
+  text-align: center;
+}
+.square div
+{
+    position:absolute;
+    margin:auto;
+    margin-left:45%;
+    margin-top:50vh;
+    width:80px;
+    height:80px;
+    background-color: rgb(230, 65, 5);
+    animation:flip 2s linear infinite;
+    transform-origin: right bottom;
+}
+.square div:nth-child(2)
+{
+    animation-delay:1s;
+    opacity: 0.7;
+}
+@keyframes flip
+{
+    0% { transform : rotateX(0deg) rotateY(0deg);}
+    25% { transform : rotateX(0deg) rotateY(180deg);}
+    50% { transform : rotateX(180deg) rotateY(180deg);}
+    75% { transform : rotateX(180deg) rotateY(0deg);}
+    100% { transform : rotateX(0deg) rotateY(0deg);}
+}
+/* responsiveness */
+@media (max-width:700px)
+{
+    .square 
+    {
+        width:150px;
+        height:150px;
+        position:relative;
+        perspective: 150px;
+    }
+    .square div
+    {
+        width:60px;
+        height:60px;
+    }
+}
+
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {

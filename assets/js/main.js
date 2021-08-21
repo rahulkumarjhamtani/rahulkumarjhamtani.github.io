@@ -1,3 +1,8 @@
+// var preloader = document.getElementById("stopflip");
+//     function loadpage() {
+//         preloader.style.display = 'none';
+//     }
+
 
 (function() {
   "use strict";
