@@ -698,7 +698,7 @@ section {
   padding: 30px;
   background: black;
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 24px 0 rgba(26, 56, 102, 0.5);
 }
 
 .contact .info i {
@@ -767,7 +767,7 @@ section {
   width: 100%;
   padding: 30px;
   background: black;
-  box-shadow: 0 0 24px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 24px 0 rgba(26, 56, 102, 0.5);
 }
 
 .contact .php-email-form .form-group {
