@@ -254,3 +254,36 @@ var preloader = document.getElementById("stopflip");
   });
 
 })()
+
+var names = document.getElementById("name");
+var subject = document.getElementById("subject");
+var message = document.getElementById("message");
+var sendmail = document.getElementById("sendmail");
+var holdname = "";
+var holdsubject = "";
+var holdmessage = "";
+var mailto = `mailto:rahulkumarjhamtani@gmail.com?subject=${holdname} - ${holdsubject}&body=${holdmessage}`;
+
+
+names.addEventListener('input', (e) => {
+  holdname = e.target.value;
+  resetmailto();
+})
+subject.addEventListener('input', (e) => {
+  holdsubject = e.target.value;
+  resetmailto();
+})
+message.addEventListener('input', (e) => {
+  holdmessage = e.target.value;
+  resetmailto();
+})
+sendmail.addEventListener('click', (e) => {
+  window.location.href=mailto;
+})
+
+document.getElementById("messageform").addEventListener('submit', (e) => {
+  e.preventDefault();
+})
+function resetmailto() {
+  mailto = `mailto:rahulkumarjhamtani@gmail.com?subject=${holdname} - ${holdsubject}&body=${holdmessage}`;
+}
